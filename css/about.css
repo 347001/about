@@ -1,0 +1,68 @@
+:root{
+	background-image: url(../image/1509339249762.jpg);
+	background-size:100%;
+	height: auto;
+}
+.about{
+	width: 750px;
+	height: 436px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	background-color:rgba(255,255,255,0.6);
+	border-radius: 10px;
+	animation: amdo 3s ease-out;
+}
+@keyframes amdo{
+	0%,50%{top:60%;}
+	50%,100%{top:50%;}
+}
+.imge{
+	margin-left: auto; 
+    margin-right:auto; 
+    display:block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50% 50% 50% 50%;
+	border: 5px solid #FFFFFF;	
+}
+.imge:hover{
+	animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.id{
+	font-size: 35px;
+	font-family: KaiTi;
+}
+.daohang{
+	height: 440px;
+}
+#nav {
+	background-color:rgba(173,173,173,0.41);
+	height:60px;
+	line-height:60px;
+	border-radius: 0px 0px 10px 10px;
+}
+#nav li {
+	list-style-type:none;
+	float:left;
+	font-size:20px;
+}
+#nav li a {
+	text-decoration:none;
+	padding:0px 29.5px;
+	color:#434343;
+	display:inline-block;
+}
+#nav li a:hover{
+	background-color:rgba(173,173,173,0.80);
+}
